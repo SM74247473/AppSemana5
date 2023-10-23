@@ -12,10 +12,6 @@ import pe.edu.idat.app.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity
     implements View.OnClickListener{
 
-
-
-
-
     private ActivityMainBinding binding;
 
     @Override
@@ -35,7 +31,6 @@ public class MainActivity extends AppCompatActivity
         } else if (view.getId() == R.id.btnirregistro){
             startActivity(new Intent(MainActivity.this,
                     RegistroActivity.class));
-
         }
     }
 }
