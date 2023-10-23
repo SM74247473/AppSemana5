@@ -46,6 +46,7 @@ public class RegistroActivity extends AppCompatActivity
         binding.cbotros.setOnClickListener(this);
         binding.btnregistrar.setOnClickListener(this);
         binding.spestadocivil.setOnItemSelectedListener(this);
+        binding.btnlistapersona.setOnClickListener(this);
     }
 
     private String obtenerGenero(){
@@ -186,5 +187,7 @@ public class RegistroActivity extends AppCompatActivity
         binding.etnombre.requestFocus();
     }
 }
+
+
 
 
